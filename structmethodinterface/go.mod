@@ -1,3 +1,0 @@
-module structmethodinterface
-
-go 1.20
