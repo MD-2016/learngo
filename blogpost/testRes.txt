@@ -1,0 +1,12 @@
+=== RUN   TestNewBlogPost
+    blogpost_test.go:40: got {Title:Title:Post 1 Description:		Description:Description 1 Tags:[		Tags:tdd go] Body:		Hello
+        		World
+        		}, want {Title:Post 1 Description:Description 1 Tags:[tdd go] Body:Hello World}
+--- FAIL: TestNewBlogPost (0.00s)
+FAIL
+exit status 1
+FAIL	blogpost	0.016s
+=== RUN   TestNewBlogPosts
+--- PASS: TestNewBlogPosts (0.00s)
+PASS
+ok  	blogpost	0.009s
