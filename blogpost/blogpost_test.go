@@ -64,3 +64,5 @@ func assertPost(t *testing.T, got blogpost.Post, want blogpost.Post) {
 		t.Errorf("got %+v, want %+v", got, want)
 	}
 }
+
+//test for update
