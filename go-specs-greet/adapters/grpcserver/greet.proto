@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/MD-2016/adaptes/grpcserver";
+option go_package = "learngo/adapters/grpcserver";
 
 pacakge grpcserver;
 

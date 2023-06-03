@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/MD-2016/go-specs-greet/domain/interactions"
+	"learngo/go-specs-greet/domain/interactions"
 )
 
 const (

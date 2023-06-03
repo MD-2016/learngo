@@ -4,9 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/MD-2016/go-specs-greet/adapters"
-	"github.com/MD-2016/go-specs-greet/adapters/webserver"
-	"github.com/MD-2016/go-specs-greet/specifications"
+	"learngo/go-specs-greet/adapters"
+	"learngo/go-specs-greet/adapters/webserver"
+	"learngo/go-specs-greet/specifications"
+
 	"github.com/alecthomas/assert/v2"
 )
 

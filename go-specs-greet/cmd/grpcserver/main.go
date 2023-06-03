@@ -4,7 +4,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/MD-2016/go-specs-greet/adapters/grpcserver"
+	"learngo/go-specs-greet/adapters/grpcserver"
+
 	"google.golang.org/grpc"
 )
 

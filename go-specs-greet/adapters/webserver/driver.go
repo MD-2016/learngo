@@ -1,7 +1,8 @@
 package webserver
 
 import (
-	"github.com/MD-2016/go-specs-greet/adapters/webserver/internal/pages"
+	"learngo/go-specs-greet/adapters/webserver/internal/pages"
+
 	"github.com/go-rod/rod"
 )
 

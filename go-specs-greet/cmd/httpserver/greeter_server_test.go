@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MD-2016/go-specs-greet/adapaters"
-	"github.com/MD-2016/go-specs-greet/adapaters/httpserver"
-	"github.com/MD-2016/go-specs-greet/specifications"
+	"learngo/go-specs-greet/adapters"
+	"learngo/go-specs-greet/adapters/httpserver"
+	"learngo/go-specs-greet/specifications"
 )
 
 func TestGreeterServer(t *testing.T) {
@@ -25,7 +25,7 @@ func TestGreeterServer(t *testing.T) {
 		}
 	)
 
-	adapaters.StartDockerServer(t, port, "httpserver")
+	adapters.StartDockerServer(t, port, "httpserver")
 	specifications.GreetSpecification(t, driver)
 	specifications.CurseSpecification(t, driver)
 }
