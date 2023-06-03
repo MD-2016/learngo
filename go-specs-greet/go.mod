@@ -1,4 +1,4 @@
-module github.com/MD-2016/go-specs-greet
+module github.com/MD-2016/learngo/go-specs-greet
 
 go 1.20
 
