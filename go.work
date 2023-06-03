@@ -4,3 +4,4 @@ use ./blogpost
 use ./blogrenderer
 use ./generics
 use ./bank
+use ./go-specs-greet
