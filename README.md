@@ -1,2 +1,2 @@
 # learngo
-learning go with testing 
+learning go with testing. Test of git
