@@ -7,3 +7,4 @@ use ./bank
 use ./go-specs-greet
 use ./httpserver
 use ./json
+use ./iop
