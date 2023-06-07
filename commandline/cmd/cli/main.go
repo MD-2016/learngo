@@ -17,7 +17,7 @@ func main() {
 	}
 	defer close()
 
-	fmt.Println("Let's play poker")
+	fmt.Println("Let's play timeserver")
 	fmt.Println("Type {Name} wins to record a win")
-	commandline.NewCLI(store, os.Stdin).PlayPoker()
+	commandline.NewCLI(store, os.Stdin).Playtimeserver()
 }
