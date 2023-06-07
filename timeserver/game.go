@@ -1,0 +1,6 @@
+package timeserver
+
+type Game interface {
+	Start(numberOfPlayers int)
+	Finish(winner string)
+}

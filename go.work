@@ -9,3 +9,4 @@ use ./httpserver
 use ./json
 use ./iop
 use ./commandline
+use ./timeserver
