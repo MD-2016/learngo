@@ -10,3 +10,4 @@ use ./json
 use ./iop
 use ./commandline
 use ./timeserver
+use ./websocketsPkg
